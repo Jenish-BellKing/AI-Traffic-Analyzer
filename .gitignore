@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+dist/
+build/
+frontend/dist/
+frontend/build/
+.vite/
+frontend/.vite/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data and generated files
+uploads/
+logs/
+*.log
+cache/
+temp/
+tmp/
+traffic_system.db
+*.sqlite
+*.sqlite3
+
+# Downloaded or generated media/data
+*.mp4.part
+*.part
+datasets/
+data/generated/
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
